@@ -74,7 +74,8 @@
      +---+---+---+---+---+---+---*/
     
     /* global border radius */
-    --uc-border-radius: 50px !important;
+    --uc-border-radius: 4px !important;
+    --uc-temp-border-radius: 50px !important;
      
     /* dynamic url bar width settings */
     --uc-urlbar-width: clamp(250px, 50vw, 600px);
@@ -162,7 +163,7 @@
     --toolbar-field-focus-color:                var(--uc-inverted-colour) !important;
     
     --tabs-border-color:                        var(--uc-theme-colour)    !important;
-    --tab-border-radius:                        var(--uc-border-radius)   !important;
+    --tab-border-radius:                        var(--uc-temp-border-radius)   !important;
     --lwt-text-color:                           var(--uc-inverted-colour) !important;
     --lwt-tab-text:                             var(--uc-inverted-colour) !important;
 
@@ -243,7 +244,7 @@ window,
 /* active tab background */
 .tabbrowser-tab[selected]
     > .tab-stack
-    > .tab-background { background: var(--uc-hover-colour) !important; border-radius: 4px; }
+    > .tab-background { background: var(--uc-hover-colour) !important; border: 1px solid #DA4453 !important; }
 
 
 /* tab close button options */

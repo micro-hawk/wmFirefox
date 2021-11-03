@@ -19,5 +19,12 @@
     main .logo-and-wordmark {
         display: none !important;
     }
+
+    main button {
+        border: 1px solid #DA4453 !important;
+        border-radius: 50px !important;
+        box-shadow: none !important;
+        outline: none !important;
+    }
 } 
 
